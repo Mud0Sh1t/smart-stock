@@ -7,6 +7,7 @@
 |varchar|varchar|integer|integer|integer
 
 ## Table Users
+
 |Id|Username|Password|
-|–--|---|---|
+|---|---|---|
 |integer|varchar|varchar|
