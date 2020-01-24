@@ -1,10 +1,11 @@
 # smart-stock
 
 ## team
-@Mud0Sh1t: Developper
-@jlefebvre1997: Developper
-@Jleuleu42: Scrum Master
-@Yannickraoumbe: Product Owner
+
+* @Mud0Sh1t: Developper
+* @jlefebvre1997: Developper
+* @Jleuleu42: Scrum Master
+* @Yannickraoumbe: Product Owner
 
 ## Wire Frames
 
