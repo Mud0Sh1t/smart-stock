@@ -18,3 +18,5 @@
 /.idea
 docker-compose.yaml
 docker
+data
+.env
