@@ -31,6 +31,7 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
     private $passwordEncoder;
 
     public function __construct(EntityManagerInterface $entityManager, RouterInterface $router, UserPasswordEncoderInterface $passwordEncoder)
+        
     {
         $this->entityManager = $entityManager;
         $this->router = $router;
@@ -57,9 +58,7 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
 
     public function getUser($credentials, UserProviderInterface $userProvider)
     {
-        return $this->entityManager->getRepository(User::class)->findOneBy(
-            ['username' => $credentials['username']]
-        );
+        return $userProvider->loadUserByUsername($credentials['username']);
     }
 
     public function checkCredentials($credentials, UserInterface $user)
