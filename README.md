@@ -9,11 +9,6 @@
 
 ## Wire Frames
 
-### Consultation Wireframe
-
-Consultation des produits en stock
-<img src ="https://github.com/Mud0Sh1t/smart-stock/blob/master/wireframes_source/Wireframe%20Results.png">
-
 ### Login Wireframe
 
 Login avec username and password
